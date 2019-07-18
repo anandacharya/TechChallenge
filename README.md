@@ -61,7 +61,13 @@ To BUILD and RUN the PROJECT
 
 About the AUTOMATION framework:
 ------------------------------
-The automation framework is developed using concepts of Page Object Model with Page Factory design pattern, data drivern framework, and TDD framework (TestNg). The source code is available in the SRC folder. Below are highlights of the framework.
-1) Each web page represented as difference class page
-2) Allows parallel cross browser execution
-2) Each
+The automation framework is developed using concepts of Page Object Model with Page Factory design pattern, data driven framework, and TDD framework (TestNg). Java is the binding language. The source code is available in the SRC folder. 
+Below are highlights of the framework.
+1) Each web page represented as class file where the page web elements and actions on the web elements are defined
+2) Allows code reuse to add new test scenarios without major changes to the framework
+3) Allows parallel cross browser execution
+4) Auto events logging on every action performed on the web element
+5) Capturing failed tests screenshots
+6) Auto re-run of test cases in case of failure
+7) Test summary report generation
+8) Flexibility to run from CI tool like Jenkins
