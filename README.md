@@ -7,8 +7,8 @@ Prerequistes installed in machine:
 3) OS (I developed the project on windows)
 4) Java JDK and Maven enviroment variables location updated in system variables path 
 
-To BUILD and RUN the PROJECT
-----------------------------
+To BUILD and RUN the PROJECT:
+-----------------------------
 1) Using Java ECLIPSE (or any IDE):
 - Import the project as Maven project from GitHub
 - Update the project by right click project and select Maven Update Project
@@ -71,3 +71,8 @@ Below are highlights of the framework.
 6) Auto re-run of test cases in case of failure
 7) Test summary report generation
 8) Flexibility to run from CI tool like Jenkins
+
+DEMO video:
+----------
+Below video shows the parallel automated execution of a single test case on both chrome and firefox browser 
+https://drive.google.com/open?id=187RwhCGvsUHUS9SNnTd6CMMqrGmsp9iG
