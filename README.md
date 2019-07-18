@@ -58,3 +58,10 @@ To BUILD and RUN the PROJECT
 		- Default Content: ${FILE,path="target/surefire-reports/emailable-report.html"}
 - Click Apply Save
 - Click Build and verify that the test cases are executed
+
+About the AUTOMATION framework:
+------------------------------
+The automation framework is developed using concepts of Page Object Model with Page Factory design pattern, data drivern framework, and TDD framework (TestNg). The source code is available in the SRC folder. Below are highlights of the framework.
+1) Each web page represented as difference class page
+2) Allows parallel cross browser execution
+2) Each
