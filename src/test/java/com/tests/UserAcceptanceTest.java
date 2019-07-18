@@ -47,11 +47,11 @@ public class UserAcceptanceTest extends Testbase {
 		homePage = new HomePage(driver);
 	}
 	
-    //Data driven framework concept
+     //Data driven framework concept
 	@DataProvider
 	public Object[][] getFlightInfo(){
-		Object orderId[][] = ExcelUtil.readExcel("flights", System.getProperty("user.dir")+"/src/main/java/com/testdata/flightsdata.xlsx");
-		return orderId;
+		Object flightsData[][] = ExcelUtil.readExcel("flights", System.getProperty("user.dir")+"/src/main/java/com/testdata/flightsdata.xlsx");
+		return flightsData;
 	}
 	
 	/******************************************* TEST SCENARIOS **********************************************************/
