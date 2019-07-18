@@ -1,6 +1,6 @@
 # TechChallenge
 
-Prerequistes installed in machine:
+Prerequistes to be installed in machine:
 ---------------------------------
 1) Java/JDK (My machine java version: 1.8.0_201)
 2) Apache Maven (My machine Maven version 3.6.0)
